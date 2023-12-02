@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace AoC2022;
+namespace AoC2023;
 
 [TestClass]
 public partial class Day1 : AoCTestClass
