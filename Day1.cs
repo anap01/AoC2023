@@ -22,6 +22,7 @@ public partial class Day1 : AoCTestClass
                     break;
                 }
             }
+
             foreach (var ch in line.Reverse())
             {
                 if (char.IsNumber(ch))
@@ -33,6 +34,7 @@ public partial class Day1 : AoCTestClass
 
             sum += ten * 10 + one;
         }
+
         TestContext.Write($"{sum}");
     }
 
@@ -41,22 +43,22 @@ public partial class Day1 : AoCTestClass
 
     private readonly Dictionary<string, int> _dict = new()
     {
-        { "one", 1},
-        { "two", 2},
-        { "three", 3},
-        { "four", 4},
-        { "five", 5},
-        { "six", 6},
-        { "seven", 7},
-        { "eight", 8},
-        { "nine", 9}
+        { "one", 1 },
+        { "two", 2 },
+        { "three", 3 },
+        { "four", 4 },
+        { "five", 5 },
+        { "six", 6 },
+        { "seven", 7 },
+        { "eight", 8 },
+        { "nine", 9 }
     };
-    
+
     [TestMethod]
     public void Part2()
     {
-        var input = DayInput.EnumerateLines();
-        // var input = TestInput2.EnumerateLines();
+        // var input = DayInput.EnumerateLines();
+        var input = TestInput2.EnumerateLines();
         long sum = 0;
         var regex = MyRegex();
         foreach (var line in input)
@@ -68,8 +70,8 @@ public partial class Day1 : AoCTestClass
             var one = last.Length == 1 ? int.Parse(last) : _dict[last];
             sum += ten * 10 + one;
         }
+
         TestContext.Write($"{sum}");
-        
     }
 
     private const string TestInput = """
@@ -88,47 +90,4 @@ public partial class Day1 : AoCTestClass
                                       zoneight234
                                       7pqrstsixteen
                                       """;
-    
-    [TestMethod]
-    public void CalcB()
-    {
-        TestContext.WriteLine(DayInput.EnumerateLines()
-            .Select(l => GetNumbers(l).MinBy(l => l.ix).num + "" + GetNumbers(l).MaxBy(l => l.ix).num)
-            .Select(s =>
-            {
-                var i = int.Parse(s);
-                TestContext.WriteLine(i.ToString());
-                return i;
-            })
-            .Sum()
-            .ToString());
-    }
-
-    private static IEnumerable<(int num, int ix)> GetNumbers(string inp)
-    {
-        var toSearch = new[] { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" }
-            .Concat(Enumerable.Range(1, 9).Select(i => i.ToString()))
-            .ToArray();
-
-        for (var si = 0; si < toSearch.Length; si++)
-        {
-            int ix = 0;
-            while (true)
-            {
-                ix = inp.IndexOf(toSearch[si], ix, StringComparison.Ordinal);
-                if (ix >= 0)
-                {
-                    if (si < 9)
-                        yield return (si + 1, ix);
-                    else
-                        yield return (si - 8, ix);
-                    ix++;
-                }
-                else
-                {
-                    break;
-                }
-            }
-        }
-    }
 }
