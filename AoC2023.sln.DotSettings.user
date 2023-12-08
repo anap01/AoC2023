@@ -1,15 +1,23 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=31c2e4ff_002Db9e6_002D44a1_002Dbc91_002Dde83e9d137f8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Part1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0ef240e1_002D0b5b_002D4058_002Da531_002D6a0bf10ffcea/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Part2 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day3&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day4.Part1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day4.Part2&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day5.Part1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day5.Part2&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day6.Part1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day6.Part2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day8.Part2&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=484cb54d_002D3714_002D4ba1_002D97c2_002D5f54fc61f163/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Part1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day7.Part1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day8.Part1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day8.Part2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=96b663cf_002Db373_002D47ec_002Daca5_002D5d033b9389ce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Part2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::80E72F6E-6F4B-474A-967D-0ACF2BE49EBC::net7.0::AoC2023.Day8.Part2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
 	
 	
 	
